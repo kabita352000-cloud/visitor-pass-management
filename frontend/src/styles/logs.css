@@ -1,0 +1,4 @@
+.log-filters{display:flex;align-items:flex-end;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.log-filters label{display:flex;flex-direction:column;gap:6px;font-size:11px;font-weight:700;color:#5b6780}
+.log-filters input,.log-filters select{min-width:150px;padding:10px;border:1px solid #e1e6ef;border-radius:7px;background:#fff;color:#293750;font-size:12px}
+@media(max-width:720px){.log-filters{align-items:stretch}.log-filters label,.log-filters input,.log-filters select,.log-filters button{width:100%}}

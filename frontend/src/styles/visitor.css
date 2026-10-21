@@ -1,0 +1,13 @@
+.visitor-portal-page{min-height:100vh;background:#f5f7fb}
+.visitor-portal-header{height:68px;background:#fff;border-bottom:1px solid #e9edf4;display:flex;align-items:center;justify-content:space-between;padding:0 max(24px,calc((100vw - 1120px)/2))}
+.visitor-portal-brand{display:flex;align-items:center;gap:9px;color:#293750;font:800 18px Manrope,sans-serif}
+.visitor-portal-brand svg{color:#586cf0}
+.visitor-portal-header>div:last-child{display:flex;align-items:center;gap:14px;font-size:12px}
+.visitor-portal-main{width:min(1120px,100%);margin:0 auto;padding:32px 24px}
+.visitor-record-panel{margin-bottom:18px}
+.visitor-pass-list{display:grid;gap:12px}
+.visitor-pass-card{display:flex;align-items:center;gap:18px;border:1px solid #e9edf4;border-radius:9px;padding:14px}
+.visitor-pass-card img{width:104px;height:104px;object-fit:contain}
+.visitor-pass-card>div{flex:1}
+.visitor-pass-card p{font-size:11px;color:#8994a8}
+@media(max-width:720px){.visitor-portal-header{padding:0 14px}.visitor-portal-header>div:last-child{gap:8px}.visitor-portal-header>div:last-child>span{display:none}.visitor-portal-main{padding:24px 14px}.visitor-pass-card{align-items:flex-start;flex-wrap:wrap}.visitor-pass-card img{width:76px;height:76px}.visitor-pass-card>button{width:100%}}
